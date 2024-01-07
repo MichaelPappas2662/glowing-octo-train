@@ -1,0 +1,10 @@
+{
+  "name": "health-passport",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
