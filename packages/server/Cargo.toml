@@ -5,3 +5,9 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4.0"
+jsonwebtoken = "7"
+oauth2 = "4" 
+serde = { version = "1.0", features = ["derive"] }
+validator = { version = "0.15", features = ["derive"] }
+validator_derive = "0.15"
+diesel = { version = "2.1", features = ["postgres", "serde_json"] }
